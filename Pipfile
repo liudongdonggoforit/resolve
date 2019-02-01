@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+flask = "*"
+flask-limiter = "*"
+redis = "*"
+pil = "*"
+tesserocr = "*"
+
+[requires]
+python_version = "3.7"
